@@ -1,0 +1,14 @@
+apply plugin: 'java'
+group 'com.wfb.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'mysql:mysql-connector-java:5.1.34'
+}
